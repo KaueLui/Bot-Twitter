@@ -13,7 +13,7 @@ const Bot = new twit({
 function BotInit() {
   var query = {
     //Aqui vai o que você quer buscar
-    q: "@NowUnitedMusic",
+    q: "#NowUnitedFeelItNow" ,
     result_type: "recent",
   };
   // Este método busca os tweets mais recentes baseado na sua query
@@ -40,5 +40,8 @@ function BotInit() {
   }
 }
 
-setInterval(function(){BotRetweet}, 10*60*1000);
+setInterval( function() {
+  console.log( 'Executa uma vez após 1 segundo.' );
 BotInit();
+
+}, 1000 );
