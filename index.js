@@ -40,5 +40,5 @@ function BotInit() {
   }
 }
 
-//setInterval(function(){BotRetweet}, 10*60*1000);
+setInterval(function(){BotRetweet}, 10*60*1000);
 BotInit();
