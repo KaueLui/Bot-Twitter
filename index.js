@@ -41,7 +41,7 @@ function BotInit() {
 }
 
 setInterval( function() {
-  console.log( 'Executa uma vez após 1 segundo.' );
+console.log( 'Executa uma vez após 1 segundo.' );
 BotInit();
 
 }, 1000 );
