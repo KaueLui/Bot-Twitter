@@ -13,7 +13,7 @@ const Bot = new twit({
 function BotInit() {
   var query = {
     //Aqui vai o que você quer buscar
-    q: "#NowUnitedTheWeekendsHere" ,
+    q: "NowUnitedSomebody" ,
     result_type: "recent",
   };
   // Este método busca os tweets mais recentes baseado na sua query
